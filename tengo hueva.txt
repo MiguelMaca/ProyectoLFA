@@ -1,0 +1,8 @@
+tengo hueva
+4-5=-1
+{}
+(9+5)=10
+si quiero hacer verdadero
+==
+>=
+<=
