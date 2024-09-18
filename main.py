@@ -10,7 +10,7 @@ token_specs = [
     ('EQ', r'=='),  # Igualdad
     ('LE', r'<='),  # Menor o igual
     ('GE', r'>='),  # Mayor o igual
-    ('RESERVED', r'\b(si|mientras)\b'),  # Palabras reservadas
+    ('RESERVED', r'\b(entero|decimal|booleano|cadena|si|sino|mientras|hacer|verdadero|falso)\b'),  # Palabras reservadas
     ('SIGN', r'[(){}";]'),  # Signos
     ('SKIP', r'[ \t]+'),  # Espacios en blanco
     ('NEWLINE', r'\n'),  # Nuevas líneas
