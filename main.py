@@ -6,7 +6,7 @@ import re
 token_specs = [
     ('NUMBER', r'\d+'),  # Números
     ('ID', r'[A-Za-z_]\w*'),  # Identificadores
-    ('OP', r'[+*/%=<>]'),  # Operadores aritméticos y comparativos
+    ('OP', r'[+-*/%=<>]'),  # Operadores aritméticos y comparativos
     ('EQ', r'=='),  # Igualdad
     ('LE', r'<='),  # Menor o igual
     ('GE', r'>='),  # Mayor o igual
