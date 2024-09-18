@@ -6,11 +6,12 @@ import re
 token_specs = [
     ('NUMBER', r'\d+'),  # Números
     ('ID', r'[A-Za-z_]\w*'),  # Identificadores
-    ('OP', r'[+*/=-]'),  # Operadores
+    ('OP', r'[+*/%=<>]'),  # Operadores aritméticos y comparativos
     ('EQ', r'=='),  # Igualdad
     ('LE', r'<='),  # Menor o igual
     ('GE', r'>='),  # Mayor o igual
     ('RESERVED', r'\b(si|mientras)\b'),  # Palabras reservadas
+    ('SIGN', r'[(){}";]'),  # Signos
     ('SKIP', r'[ \t]+'),  # Espacios en blanco
     ('NEWLINE', r'\n'),  # Nuevas líneas
     ('MISMATCH', r'.'),  # Cualquier otro carácter
